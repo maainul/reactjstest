@@ -173,17 +173,6 @@ Detect window **resize events** and update state.
 
 ### **3️⃣1️⃣ Implement Authentication with JWT**  
 Use `localStorage` to store and retrieve a JWT token.
-
----
-
-Would you like **solutions for each question** or just **hints** for now? 🚀
-
-
-For a **Senior Full Stack Developer** role focusing on **ReactJS**, these questions cover a wide range of topics, but **you need deeper problem-solving skills too.**  
-
-✅ These questions cover **practical** and **real-world** React problems.  
-❌ But they don't include **architecture, performance tuning, advanced patterns, and testing.**  
-
 ---
 
 ### **🔥 Additional Senior-Level React Topics You Must Know**
@@ -265,4 +254,3 @@ I can give you:
 ✅ **LeetCode-style React challenges**  
 ✅ **Advanced performance optimization questions**  
 
-Let me know what you need next! 🚀🔥
