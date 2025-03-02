@@ -13,6 +13,7 @@ import MyComponent from "./Components/MyComponent";
 import DynamicList from "./Components/DynamicList";
 
 const Dashboard = React.lazy(() => import("./Components/Dashboard"));
+import MultiStepForm from './Components/MultiStepForm';
 
 function App() {
   const { isDarkMode, toggleTheme } = useTheme();
@@ -62,6 +63,9 @@ function App() {
         </div>
         {/* Dynamic List (Add / Remove from item) */}
         <DynamicList />
+        {/* Multistep form */}
+        <h2>Multi Form</h2>
+        <MultiStepForm />
       </div>
     </>
   );
