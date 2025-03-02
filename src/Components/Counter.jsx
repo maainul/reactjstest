@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 export const Counter = () =>{
-
+    console.log("Counter renderd")
     const [count,setCount] = useState(0)
 
     function increment(){

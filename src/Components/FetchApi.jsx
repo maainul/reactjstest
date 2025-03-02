@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 const URL = `https://jsonplaceholder.typicode.com/users`
 export const FetchApi =() =>{
+    console.log("Fetch API renderd")
     const [users,setUsers] = useState([])
     const [loading, setLoading] = useState(true)
 

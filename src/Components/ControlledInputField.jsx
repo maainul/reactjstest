@@ -1,6 +1,7 @@
 import { useState } from "react"
 
 export const ControlledInputField = () => {
+    console.log("Controlled Input renderd")
 
     const [inputValue, setInputValue] = useState('')
 

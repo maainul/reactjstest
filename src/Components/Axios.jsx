@@ -11,7 +11,6 @@ export const Axios = () => {
         const fetchData = async () => {
             try {
                 const respose = await axios.get(URL)
-                console.log(respose)
                 setUsers(respose.data)
             } catch (error) {
                 console.log('Error fetch data', error)
