@@ -14,6 +14,7 @@ import DynamicList from "./Components/DynamicList";
 
 const Dashboard = React.lazy(() => import("./Components/Dashboard"));
 import MultiStepForm from './Components/MultiStepForm';
+import ValidateInputField from "./Components/ValidateInputField";
 
 function App() {
   const { isDarkMode, toggleTheme } = useTheme();
@@ -66,6 +67,9 @@ function App() {
         {/* Multistep form */}
         <h2>Multi Form</h2>
         <MultiStepForm />
+        {/*  */}
+        <h2>Form Validation</h2>
+        <ValidateInputField />
       </div>
     </>
   );
